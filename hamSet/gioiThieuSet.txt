@@ -1,0 +1,5 @@
+Set là một loại associative containers để lưu trữ các phần tử không bị trùng lặp (unique elements),
+và các phần tử này chính là các khóa (keys).
+Ví dụ như là không tồn tại một set có  2 phần tử giống nhau như {1,2,2}, {3,4,4,4,5}.  
+Set tổ chức sắp xếp theo dạng cây nhị phân và được tự động sắp xếp nên ko thể duyện set giống mảng.
+Khi duyệt set, ta sử dụng con trỏ iterator từ begin đến end.
